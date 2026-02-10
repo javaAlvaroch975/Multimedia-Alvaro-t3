@@ -1,0 +1,36 @@
+.logo-titulo 
+    img {
+    max-width: 100%; 
+    height: auto;   
+    display: block; 
+    width: 250px;
+    }
+
+.firma{
+        svg {
+        width: 20%;       
+        min-width: 80px;
+        height: auto;
+    }
+}
+
+/* --- Tablet --- */
+@media (max-width: 1000px) {
+    .logo-titulo img {
+        width: 250px; 
+    }
+    .firma svg {
+        width: 25%; 
+    }
+}
+
+/* --- Movil --- */
+@media (max-width: 700px) {
+    .logo-titulo img {
+        width: 150px; 
+    }
+    .firma svg {
+        width: 35%;
+        min-width: 80px;
+    }
+}
